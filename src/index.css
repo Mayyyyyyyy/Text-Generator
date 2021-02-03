@@ -1,0 +1,82 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+  background-color: #48466d;
+}
+.App{
+  width:100vw;
+  height:100vh;
+}
+h1{
+  text-align: center;
+  width:80vw;
+  height:15vh;
+  background-color: #8785a2;
+  margin: auto;
+  line-height: 15vh;
+}
+
+.container{
+  width: 80vw;
+  margin: auto;
+  margin-top:5vh;
+}
+
+/* Options */
+.option{
+  display: flex;
+}
+
+table{
+  width: 100%;
+}
+
+tr{
+  font-size: 1.2rem;
+  color: white;
+}
+
+input{
+  background:none;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:6px 0;
+  color: white;
+}
+
+select{
+  background:none;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:6px 0;
+  color: white;
+}
+
+.clipboard{
+  background:none;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:6px 6px;
+  color: white;
+}
+
+.clipboard:hover{
+  background-color: #8785a2;
+  outline: none;
+}
+
+/* List */
+.list{
+  margin-top:5vh;
+  color: white;
+}
+
+.listItem{
+  margin:8px 0;
+}
+
+
